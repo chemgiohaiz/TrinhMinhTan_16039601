@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
-
+//sao để đăng xuất git t ra
                 alertdialog.setNegativeButton("Không", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
