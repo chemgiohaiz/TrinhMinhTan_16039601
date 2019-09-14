@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Không được để trống" />
+            android:hint="Không được để trống"/>
 
     </LinearLayout>
 
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Không được để trống" />
+            android:hint="Không được để trống" />
 
     </LinearLayout>
 
@@ -91,6 +91,7 @@
             android:text="Đăng nhập" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -105,5 +106,9 @@
             tools:layout_editor_absoluteY="4dp" />
 
     </LinearLayout>
-
+    <Button
+        android:id="@+id/button_thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát" />
 </LinearLayout>
