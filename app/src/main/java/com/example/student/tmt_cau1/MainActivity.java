@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                alertdialog.setTitle("Thông báo");
+                alertdialog.setTitle("Thông báo");//bị gì mẹ r
                 alertdialog.setMessage("Bạn có muốn thoát không");
                 alertdialog.setCancelable(false);
                 alertdialog.setPositiveButton("Có", new DialogInterface.OnClickListener() {
